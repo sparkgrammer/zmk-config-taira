@@ -38,11 +38,11 @@
  */
 
             bindings = <
-&kp EQUAL         &kp N1     &kp N2         &kp N3    &kp N4  &kp N5                                                                                         &kp N6         &kp N7  &kp N8                &kp N9            &kp N0             &kp BACKSLASH
-&kp GRAVE         &kp B      &kp Y          &kp O     &kp U   &kp SQT                                                                                        &kp SEMICOLON  &kp L   &kp D                 &kp W             &kp V              &kp Z
-&kp RCTRL         &kp C      &kp I          &kp E     &kp A   &kp COMMA                                                                                      &kp PERIOD     &kp H   &kp T                 &kp S             &kp N              &kp Q
-&kp LSHFT         &kp G      &kp X          &kp J     &kp K   &kp MINUS                &lt 3 HOME  &to 5    &lt 1 LEFT_SHIFT  &kp DELETE                     &kp SLASH      &kp R   &kp M                 &kp F             &kp P              &kp RSHFT
-&lt 2 LEFT_SHIFT  &kp PG_UP  &kp PAGE_DOWN  &kp LCMD                     &lt 1 ESCAPE  &kp SPACE   &kp TAB  &kp ENTER         &kp BACKSPACE  &kp LEFT_SHIFT                         &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS
+&kp EQUAL    &kp N1         &kp N2        &kp N3    &kp N4  &kp N5                                                                                       &kp N6         &kp N7  &kp N8    &kp N9    &kp N0        &kp BACKSLASH
+&kp GRAVE    &kp B          &kp Y         &kp O     &kp U   &kp SQT                                                                                      &kp SEMICOLON  &kp L   &kp D     &kp W     &kp V         &kp Z
+&kp RCTRL    &kp C          &kp I         &kp E     &kp A   &kp COMMA                                                                                    &kp PERIOD     &kp H   &kp T     &kp S     &kp N         &kp Q
+&kp LSHFT    &kp G          &kp X         &kp J     &kp K   &kp MINUS                &lt 3 HOME  &to 5    &lt 1 LEFT_SHIFT  &kp END                      &kp SLASH      &kp R   &kp M     &kp F     &kp P         &kp RSHFT
+&lt 2 PG_UP  &kp PAGE_DOWN  &kp LEFT_ALT  &kp LCMD                     &lt 1 ESCAPE  &kp SPACE   &kp TAB  &kp ENTER         &kp BACKSPACE  &lt 6 DELETE                         &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT
             >;
         };
 
@@ -154,11 +154,11 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans
+&kp GRAVE      &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp DOT                                                                 &kp ASTERISK       &kp LEFT_SHIFT  &kp RCTRL    &kp LEFT_ALT  &kp LEFT_GUI  &kp AMPERSAND
+&kp EXCL       &kp PERIOD        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMI           &kp QUESTION                                                            &kp GRAVE          &kp LEFT        &kp DOWN     &kp UP_ARROW  &kp RIGHT     &kp HOME
+&kp HASH       &kp CARET         &kp EQUAL             &kp UNDER              &kp DOLLAR         &kp ASTERISK                                                            &kp DOUBLE_QUOTES  &kp BACKSPACE   &kp TAB      &kp SPACE     &kp ENTER     &kp END
+&kp TILDE      &kp LESS_THAN     &kp PIPE              &kp MINUS              &kp GREATER_THAN   &kp SLASH                  &kp BACKSLASH  &kp DOT  &kp A  &kp A         &kp SQT            &kp DELETE      &kp LS(TAB)  &trans        &trans        &trans
+&kp AMPERSAND  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES     &kp PLUS                                                &kp PERCENT  &kp COLON      &kp AT   &kp A  &kp A  &kp A                                     &kp K_UNDO   &kp K_REDO    &trans        &trans
             >;
         };
     };
