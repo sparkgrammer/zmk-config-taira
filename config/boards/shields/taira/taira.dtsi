@@ -32,7 +32,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3)                 RC(4,4) RC(4,5) RC(4,6)  RC(4,13
 
     EXT_POWER {
         compatible = "zmk,ext-power-generic";
-        control-gpios = <&gpio0 13 GPIO_ACTIVE_LOW>;
+        control-gpios = <&gpio0 13 GPIO_DISCONNECTED>;
         init-delay-ms = <50>;
     };
 
